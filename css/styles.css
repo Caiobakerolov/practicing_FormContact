@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+form {
+  background-color: rgba(44, 42, 42, 0.3);
+  width: 90%;
+  min-width: 450px;
+  max-width: 560px;
+  padding: 16px;
+}
+
+label, input, textarea {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  border: none;
+  width: 100%;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  color: #ccc;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input, textarea {
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  background-color: black;
+  border-radius: 6px;
+  margin: 8px 0 40px;
+  outline: 0;
+}
+
+/* input:invalid, textarea:invalid {
+  background-color: red;
+} */
+
+/* input:valid, textarea:valid{
+  background-color: green;
+} */
+
+input:invalid:focus, textarea:invalid:focus {
+  border-bottom: 2px solid #ff000d;
+}
+
+input:valid:focus, textarea:valid:focus {
+  border-bottom: 2px solid #2bff00;
+}
+
+input:focus, textarea:focus {
+  border-bottom: 2px solid #8e999a;
+}
+
+#btn {
+  color: white;
+  background-color: #ccc;
+  padding: 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 80px;
+  font-size: 16px;
+}
+

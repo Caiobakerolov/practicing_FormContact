@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+  <form action="" method="get">
+    <fieldset>
+    <legend>Formulario de Contato</legend>
+    
+    <label for="user">Seu nome</label>
+      <input type="name" name="name" placeholder="Digite seu nome completo" required id="user">
+    
+    <label for="email">E-mail</label>
+      <input type="email" name="email" placeholder="Digite um E-mail valido" required id="email">
+    
+    <label for="assunto">Assunto</label>
+      <input type="text" name="assunto" required id="assunto">
+    
+    <label for="mensagem">Mensagem</label>
+      <textarea name="mensagem" rows="10" minlength="20" maxlength="600" required id="mensagem" placeholder="Fale um pouco sobre suas duvidas" ></textarea>
+    
+    
+    <input type="submit" value="Enviar" id="btn">
+    
+  </fieldset>
+  </form>
+  
+</body>
+</html>
